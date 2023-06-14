@@ -1,0 +1,327 @@
+html {
+  background-color: #3a5a40;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 6% 11%;
+  padding: 0;
+}
+
+header {
+  background-color: #cad2c5;
+  padding: 30px;
+  font-size: 120%;
+  text-align: right;
+
+}
+
+h2 {
+  color: #3a5a40;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #3a5a40;
+  font-weight: bold;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1% 0;
+}
+
+#about {
+  background-color: #ffffff;
+  padding: 2% 0;
+}
+
+#about h2{
+  text-align: center;
+  font-size: 200%;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.profile-image {
+  flex: 0 0 200px;
+  margin-right: 40px;
+}
+
+.profile-image img{
+  border: 2px solid #3a5a40;
+  border-radius: 50%;
+}
+
+.profile-text {
+  flex: 1 1 500px;
+}
+
+.profile-text h3 {
+  font-size: 170%;
+  margin: 0;
+
+}
+
+.profile-text {
+  font-size: 120%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#skills {
+  background-color: #cad2c5;
+  padding: 1.5% 0;
+}
+
+#skills h2{
+  text-align: center;
+  font-size: 200%;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+#skills li {
+  text-align: center;
+  width: 9%;
+  background-color: #3a5a40;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#projects {
+  padding: 3% 8%;
+  color: #333;
+  text-align: center;
+}
+
+#projects h2 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 200%;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.project {
+  width: 28%;
+  color: white;
+  background-color: #3a5a40;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project-button {
+  padding: 2% 10%;
+  text-align: center;
+  background-color: #cad2c5;
+  color: black;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+
+#achievements {
+  background-color: #cad2c5;
+  padding: 1% 0;
+}
+
+#achievements h2{
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 5%;
+}
+
+#achievements ul{
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  list-style: none;
+}
+
+#achievements span{
+  font-weight: bolder;
+  font-size: 130%;
+}
+
+#achievements li{
+  margin: 2% 0;
+}
+
+#contact {
+  background-color: #ffffff;
+  padding: 1.5% 0;
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 200%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #3a5a40;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #cad2c5;
+  font-weight: bold;
+  font-size: 110%;
+  padding: 20px;
+  text-align: center;
+  color: #3a5a40;
+}
+
+footer a{
+  text-decoration: none;
+  color: #3a5a40;
+  font-size: 130%;
+  margin: 0.5%;
+}
+
+
+@media screen and (max-width: 965px) {
+  body {
+    margin: 10% 5%;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .profile-text {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  #skills li {
+    width: 20%;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 80%;
+    margin: 2% 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 2% 0;
+  }
+
+  #skills li {
+    width: 30%;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  #achievements ul {
+    font-size: 100%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+}
